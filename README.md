@@ -21,3 +21,13 @@ Ten projekt został stworzony przez komendę:
 create-react-app elastic-web-apps-tutorial
 ```
 
+
+## Eject
+
+Aby uzyskać dostep do konfiguracji w naszym przypadku aby skonfigurować CSS Modules. Trzeba zrobić tzw. **eject**, ktory jest nieodwracalny i pokazuje całego webpacka, który jest pod spodem create-react-app. Wywołuje sie do w katalogu z projektem poprzez:
+
+```
+cd ./elastic-web-apps-tutorial
+yarn eject
+```
+
