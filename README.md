@@ -10,3 +10,14 @@ Aplikację Reacta, trzeba skonfigurować. Jest to trochę skomplikowane ze wzgl�
 
 Wg mnie to najlepszy punkt startu, nawet dla bardzo skomplikowanych aplikacji.
 
+Instalacja przy użyciu:
+
+```
+yarn add global create-react-app
+```
+
+Ten projekt został stworzony przez komendę:
+```
+create-react-app elastic-web-apps-tutorial
+```
+
