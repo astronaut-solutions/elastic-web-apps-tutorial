@@ -85,3 +85,16 @@ yarn add babel-plugin-transform-decorators-legacy babel-preset-es2015 babel-pres
     plugins: ['transform-decorators-legacy' ],
     presets: ['es2015', 'stage-0', 'react']
 ```
+
+
+## Routing
+
+Aby mieć routing w naszej aplikacji trzeba zainstalować [React Router](https://reacttraining.com/react-router/web/guides/quick-start). Pozwala on na tworzenie componentowych aplikacji w prostszy sposób. Poprostu definiujemy obiekt Router, który pozwala nam na okiełznanie zależnościami w naszych widokach.
+
+Wersja 3 i 4 bardzo duzo się różnią dlatego. Od razu najlepiej korzystać z wersji 4. W tej wersji sie trochę zmieniło np doszedł obiekt *Switch* i usunięto props'a *children*. Teraz definiuje się kolejne Routey w dzieciach. W naszym projekcie w MainLayout są zdefiniowane tego typu powiązania.
+
+Instalacja:
+
+```
+yarn add react-router-dom
+```
