@@ -164,6 +164,10 @@ module.exports = {
         test: /\.(js|jsx)$/,
         include: paths.appSrc,
         loader: require.resolve('babel-loader'),
+        query: {
+          plugins: ['transform-decorators-legacy' ],
+          presets: ['es2015', 'stage-0', 'react']
+        },
         options: {
           
           compact: true,

@@ -53,3 +53,35 @@ Natomiast gdy chcemy wykorzystać istniejące style z innego modułu. Używamy d
 }
 ```
 
+
+## MobX
+
+Aby sprawnie zarządzać stanem aplikacji można użyć m.in. Redux'a lub MobXa wspomagających to zadanie. Jednak najprostszym sposobem jest użycie właśnie MobXa, bo nie musimy zmieniać nic w naszej aplikacji jedynie doklejamy właściwości MobXa.
+
+Instalacja:
+
+```
+yarn add mobx mobx-react
+```
+
+
+Aby używać MobXa w najprzyjemniejszy sposób używamy dekoratorów, aby je włączyć trzeba dodać w configach webpacka kilka dodatków i zainstalować:
+
+```
+yarn add babel-plugin-transform-decorators-legacy babel-preset-es2015 babel-preset-stage-0
+```
+
+**./config/webpack.config.prod.js@167**
+```
+    query: {
+        plugins: ['transform-decorators-legacy' ],
+        presets: ['es2015', 'stage-0', 'react']
+    },
+```
+
+
+**./config/webpack.config.dev.js@175**
+```
+    plugins: ['transform-decorators-legacy' ],
+    presets: ['es2015', 'stage-0', 'react']
+```
