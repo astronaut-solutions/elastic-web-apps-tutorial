@@ -1,0 +1,18 @@
+.root {
+    margin: 0;
+    padding: 0;
+}
+
+.hero, .link {
+    background: #fff;
+    padding: 50px 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    color: #512DA8;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.link {
+    display: block;
+}

@@ -13,9 +13,9 @@ class Header extends Component {
                     Movie<span>Catalog</span>
                 </Link>
 
-                <Link to="/" className={styles.favourites}>
+                <Link to="/favourites" className={styles.favourites}>
                     favourites <Icon iconClass="fa-heart" />
-                    <span>0</span>
+                    <span>20</span>
                 </Link>
             </div>
         );

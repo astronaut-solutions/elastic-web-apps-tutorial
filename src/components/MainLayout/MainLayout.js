@@ -8,6 +8,9 @@ import Footer from './Footer';
 
 import NotFoundPage from '../NotFoundPage';
 import HomePage from '../HomePage';
+import CatalogPage from '../CatalogPage';
+import FavouritesPage from '../FavouritesPage';
+import DetailsPage from '../DetailsPage';
 
 class MainLayout extends Component {
     render() {
@@ -18,6 +21,10 @@ class MainLayout extends Component {
                 <div className={styles.container}>
                     <Switch>
                         <Route exact path="/" component={HomePage} />
+                        <Route exact path="/catalog" component={CatalogPage} />
+                        <Route exact path="/catalog/:id" component={DetailsPage} />
+                        <Route exact path="/favourites" component={FavouritesPage} />
+                        
                         <Route component={NotFoundPage} />
                     </Switch>
                 </div>
