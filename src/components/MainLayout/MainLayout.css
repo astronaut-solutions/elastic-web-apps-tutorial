@@ -1,0 +1,17 @@
+.root {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+    .root {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

@@ -1,0 +1,61 @@
+.root {
+    background: #673AB7;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    text-align: right;
+    clear: both;
+    float: none;
+    height: 100%;
+    overflow: hidden;
+    line-height: 57px;
+}
+
+.logo {
+    width: auto;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    line-height: normal;
+}
+
+.logo span {
+    padding-left: 2px;
+    color: #8BC34A;
+}
+
+.favourites {
+    color: #D1C4E9;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.favourites:hover {
+    color: #fff;
+}
+
+
+.favourites i {
+    margin: 0 10px 0 5px;
+}
+
+.favourites span {
+    width: 15px;
+    height: 15px;
+    font-size: 9px;
+    right: -2px;
+    top: -5px;
+    text-align: center;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    display: block;
+    position: absolute;
+    line-height: 15px;
+}
