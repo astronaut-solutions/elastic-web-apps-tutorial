@@ -1,3 +1,3 @@
-import CatalogPage from './CatalogPage.js';
+import CatalogContainerPage from './CatalogContainerPage.js';
 
-export default CatalogPage;
+export default CatalogContainerPage;
