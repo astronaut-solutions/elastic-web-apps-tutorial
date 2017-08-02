@@ -25,7 +25,7 @@ class CatalogPage extends Component {
                 <Movie key={output.length} data={element} />
             );
             return output;
-        }, [])
+        }, []);
     }
 }
 

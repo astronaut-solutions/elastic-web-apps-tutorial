@@ -2,7 +2,7 @@
     clear: both;
     float: none;
     background: #fff;
-    padding: 50px 20px;
+    padding: 20px 20px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     overflow: hidden;
@@ -12,6 +12,7 @@
 }
 
 .root h1 {
+    width: 70%;
     font-size: 20px;
     margin: 0;
     padding: 0;
@@ -20,4 +21,17 @@
 .root img {
     float: right;
     max-height: 200px;
+}
+
+.root p {
+    width: 70%;
+    float: left;
+}
+
+@media screen and (max-width: 768px) {
+    .root img {
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
 }

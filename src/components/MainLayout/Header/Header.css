@@ -11,7 +11,7 @@
     line-height: 57px;
 }
 
-.logo {
+.logo, .back {
     width: auto;
     display: block;
     color: #fff;
@@ -21,6 +21,12 @@
     text-decoration: none;
     float: left;
     line-height: normal;
+    cursor: pointer;
+}
+
+
+.back.hide {
+    display: none;
 }
 
 .logo span {

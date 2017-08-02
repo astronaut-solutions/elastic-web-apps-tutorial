@@ -1,3 +1,3 @@
-import DetailsPage from './DetailsPage.js';
+import DetailsContainerPage from './DetailsContainerPage.js';
 
-export default DetailsPage;
+export default DetailsContainerPage;
