@@ -73,10 +73,8 @@ yarn add babel-plugin-transform-decorators-legacy babel-preset-es2015 babel-pres
 
 **./config/webpack.config.prod.js@167**
 ```
-    query: {
-        plugins: ['transform-decorators-legacy' ],
-        presets: ['es2015', 'stage-0', 'react']
-    },
+    plugins: ['transform-decorators-legacy' ],
+    presets: ['es2015', 'stage-0', 'react']
 ```
 
 
