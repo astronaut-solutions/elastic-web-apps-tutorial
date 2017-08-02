@@ -11,6 +11,8 @@ class DetailsContainerPage extends Component {
         this.state = {
             movies: {}
         };
+
+        this.saveToFavourites = this.saveToFavourites.bind(this);
     }
 
     render() {
@@ -21,7 +23,8 @@ class DetailsContainerPage extends Component {
         return (
             <DetailsPage
                 movies={movies}
-                id={params.id} />
+                id={params.id}
+                saveToFavourites={this.saveToFavourites} />
         );
     }
 
@@ -32,13 +35,13 @@ class DetailsContainerPage extends Component {
 
     getMovies() {
         axios.get('/api/movies.json')
-            .then(function (response) {
+            .then((response) => {
 
                 this.setState({
-                    movies: response.data
+                    movies: this.formatMovies(response.data)
                 });
-            }.bind(this))
-            .catch(function (error) {
+            })
+            .catch((error) => {
                 console.log(error);
             });
     }
@@ -48,6 +51,10 @@ class DetailsContainerPage extends Component {
             output[element.id] = element;
             return output;
         }, {});
+    }
+
+    saveToFavourites(){
+        
     }
 }
 

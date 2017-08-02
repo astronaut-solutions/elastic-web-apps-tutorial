@@ -1,25 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import Button from '../../Ui/Button';
+
 import styles from './Movie.css';
 
 class Movie extends Component {
     render() {
-        const { data, disableLink } = this.props;
-
-        if (disableLink !== undefined) {
-            return (
-                <div className={styles.root}>
-                    {this.renderContent(data)}
-                </div>
-            );
-        }
-
+        const { data, disableLink, withoutShadow } = this.props;
 
         return (
-            <Link to={`/catalog/${data.id}`} className={styles.root}>
+            <div className={`${styles.root} ${withoutShadow !== undefined ? styles.withoutBoxShadow : ''}`}>
                 {this.renderContent(data)}
-            </Link>
+                {this.renderButton(data, disableLink)}
+            </div>
         );
     }
 
@@ -29,6 +23,15 @@ class Movie extends Component {
             <p>{data.description}</p>
             <img src={data.poster} alt={data.title} />
         </div>;
+    }
+
+    renderButton(data, disableLink) {
+        if (disableLink !== undefined) {
+            return null;
+        }
+
+        return <Button
+            to={`/catalog/${data.id}`}>Show details</Button>
     }
 }
 

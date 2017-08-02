@@ -1,35 +1,34 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
 import Movie from '../CatalogPage/Movie';
+import Icon from '../Ui/Icon';
+
+import styles from './DetailsPage.css';
 
 class DetailsPage extends Component {
 
 
     render() {
-        const { id, movies } = this.props;
+        const { id, movies, saveToFavourites } = this.props;
 
-        if(movies[id] === undefined){
+        if (movies[id] === undefined) {
             return null;
         }
 
         return (
-            <div>
-                <Movie data={movies[id]} disableLink="true" />
+            <div className={styles.root}>
+                <Movie
+                    data={movies[id]}
+                    disableLink="true"
+                    withoutShadow="true" />
+
+                <span
+                    onClick={saveToFavourites}
+                    className={styles.saveTo}>
+                    Save to favourites <Icon iconClass="fa-heart" />
+                </span>
             </div>
         );
-    }
-
-    getMovies() {
-        axios.get('/api/movies.json')
-            .then(function (response) {
-                this.setState({
-                    movies: response.data
-                });
-            }.bind(this))
-            .catch(function (error) {
-                console.log(error);
-            });
     }
 }
 

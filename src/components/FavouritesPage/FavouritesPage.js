@@ -6,8 +6,7 @@ class FavouritesPage extends Component {
     render() {
         return (
             <div>
-                <Movie />
-                <Movie />
+                FavouritesPage
             </div>
         );
     }
