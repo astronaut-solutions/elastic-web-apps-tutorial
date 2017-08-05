@@ -1,3 +1,16 @@
-import Block from './Block.js';
+import React, { Component } from 'react';
 
-export default Block;
+import styles from './Block.css';
+
+export default class Block extends Component {
+
+    render() {
+        const { children, customClass } = this.props;
+
+        return (
+            <div className={`${styles.root} ${customClass || ''}`}>
+                {children}
+            </div>
+        );
+    }
+}

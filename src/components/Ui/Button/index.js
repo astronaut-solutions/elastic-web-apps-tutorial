@@ -1,3 +1,19 @@
-import Button from './Button.js';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-export default Button;
+import styles from './Button.css';
+
+export default class Button extends Component {
+
+    render() {
+        const { to, children } = this.props;
+
+        return (
+            <Link
+                to={to}
+                className={styles.root}>
+                {children}
+            </Link>
+        );
+    }
+}

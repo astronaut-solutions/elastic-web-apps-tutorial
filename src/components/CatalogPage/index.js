@@ -1,3 +1,40 @@
-import CatalogContainerPage from './CatalogContainerPage.js';
+import React, { Component } from 'react';
+import axios from 'axios';
 
-export default CatalogContainerPage;
+import CatalogPage from './CatalogPage';
+
+export default class CatalogContainerPage extends Component {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            'movies': []
+        };
+    }
+
+    render() {
+        const { movies } = this.state;
+
+        return (
+            <CatalogPage movies={movies} />
+        );
+    }
+
+    componentDidMount() {
+        this.getMovies();
+    }
+
+    getMovies() {
+        axios.get('/api/movies.json')
+            .then(function (response) {
+                this.setState({
+                    movies: response.data
+                });
+            }.bind(this))
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
+}
+

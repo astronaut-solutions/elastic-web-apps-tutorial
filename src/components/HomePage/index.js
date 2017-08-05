@@ -1,3 +1,20 @@
-import HomePage from './HomePage.js';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-export default HomePage;
+import styles from './HomePage.css';
+
+export default class HomePage extends Component {
+    render() {
+        return (
+            <div className={styles.root}>
+                <div className={styles.hero}>
+                    Welcome in <strong>MovieCatalog</strong>!
+                </div>
+
+                <Link to="/catalog" className={styles.link}>
+                    Go to our movies &rsaquo;
+                </Link>
+            </div>
+        );
+    }
+}
