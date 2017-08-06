@@ -25,7 +25,7 @@ class Header extends Component {
                 </Link>
 
                 <Link to="/favourites" className={styles.favourites}>
-                    favourites <Icon iconClass="fa-heart" />
+                    <b>favourites</b> <Icon iconClass="fa-heart" />
                     {this.getCounter()}
                 </Link>
             </div>
@@ -37,7 +37,7 @@ class Header extends Component {
 
         let length = Object.keys(store.favourites).length;
 
-        if(length === 0){
+        if (length === 0) {
             return null;
         }
 

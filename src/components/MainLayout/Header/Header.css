@@ -65,3 +65,14 @@
     position: absolute;
     line-height: 15px;
 }
+
+.favourites b {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .favourites b {
+        display: inline;
+    }
+}
