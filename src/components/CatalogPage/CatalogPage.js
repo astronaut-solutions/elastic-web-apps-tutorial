@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 
+import Block from '../Ui/Block';
 import Movie from './Movie';
 
-class CatalogPage extends Component {
+export default class CatalogPage extends Component {
     render() {
         const { movies } = this.props;
 
         if (movies.length === 0) {
             return (
-                <div>Loading...</div>
+                <Block>
+                    Loading...
+                </Block>
             );
         }
 
@@ -28,5 +31,3 @@ class CatalogPage extends Component {
         }, []);
     }
 }
-
-export default CatalogPage;

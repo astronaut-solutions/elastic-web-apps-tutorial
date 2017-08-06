@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
+import GetMovies from '../GetMovies';
 import CatalogPage from './CatalogPage';
 
 export default class CatalogContainerPage extends Component {
@@ -22,19 +22,13 @@ export default class CatalogContainerPage extends Component {
     }
 
     componentDidMount() {
-        this.getMovies();
-    }
-
-    getMovies() {
-        axios.get('/api/movies.json')
-            .then(function (response) {
-                this.setState({
-                    movies: response.data
-                });
-            }.bind(this))
-            .catch(function (error) {
-                console.log(error);
+        this.getMovies = new GetMovies((response) => {
+            this.setState({
+                movies: response.data
             });
+        });
+
+        this.getMovies.get();
     }
 }
 

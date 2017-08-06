@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
+import GetMovies from '../GetMovies';
 import DetailsPage from './DetailsPage';
 
 export default class DetailsContainerPage extends Component {
@@ -30,21 +30,15 @@ export default class DetailsContainerPage extends Component {
 
 
     componentDidMount() {
-        this.getMovies();
-    }
-
-    getMovies() {
-        axios.get('/api/movies.json')
-            .then((response) => {
-
-                this.setState({
-                    movies: this.formatMovies(response.data)
-                });
-            })
-            .catch((error) => {
-                console.log(error);
+        this.getMovies = new GetMovies((response) => {
+            this.setState({
+                movies: this.formatMovies(response.data)
             });
+        });
+
+        this.getMovies.get();
     }
+
 
     formatMovies(responseData) {
         return responseData.reduce(function (output, element) {
@@ -53,7 +47,7 @@ export default class DetailsContainerPage extends Component {
         }, {});
     }
 
-    saveToFavourites(){
-        
+    saveToFavourites() {
+
     }
 }

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import Movie from '../CatalogPage/Movie';
 import Icon from '../Ui/Icon';
+import Block from '../Ui/Block';
+import Button from '../Ui/Button';
 
 import styles from './DetailsPage.css';
 
@@ -16,18 +18,18 @@ class DetailsPage extends Component {
         }
 
         return (
-            <div className={styles.root}>
+            <Block customClass={styles.root}>
                 <Movie
                     data={movies[id]}
                     disableLink="true"
                     withoutShadow="true" />
 
-                <span
+                <Button
                     onClick={saveToFavourites}
-                    className={styles.saveTo}>
+                    customClass={`${styles.saveTo} ${styles.saveToSaved}`}>
                     Save to favourites <Icon iconClass="fa-heart" />
-                </span>
-            </div>
+                </Button>
+            </Block>
         );
     }
 }

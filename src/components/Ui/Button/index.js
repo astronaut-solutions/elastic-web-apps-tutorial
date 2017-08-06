@@ -6,12 +6,12 @@ import styles from './Button.css';
 export default class Button extends Component {
 
     render() {
-        const { to, children } = this.props;
+        const { to, children, customClass } = this.props;
 
         return (
             <Link
-                to={to}
-                className={styles.root}>
+                to={to || ''}
+                className={`${styles.root} ${customClass || ''}`}>
                 {children}
             </Link>
         );

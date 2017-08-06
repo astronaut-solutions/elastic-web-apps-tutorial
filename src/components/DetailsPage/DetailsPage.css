@@ -13,6 +13,16 @@
 }
 
 .saveTo {
-    color: red;
+    width: 160px;
+    background: #fff;
+    border: 1px solid red;
     cursor: pointer;
+    padding: 10px 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.saveToSaved {
+    background: red;
+    color: #ffffff;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Block from '../../Ui/Block';
 import Button from '../../Ui/Button';
 
 import styles from './Movie.css';
@@ -9,10 +10,12 @@ export default class Movie extends Component {
         const { data, disableLink, withoutShadow } = this.props;
 
         return (
-            <div className={`${styles.root} ${withoutShadow !== undefined ? styles.withoutBoxShadow : ''}`}>
+            <Block customClass={`${styles.root} ${withoutShadow !== undefined ? styles.withoutBoxShadow : ''}`}>
                 {this.renderContent(data)}
                 {this.renderButton(data, disableLink)}
-            </div>
+            </Block>
+
+            
         );
     }
 
