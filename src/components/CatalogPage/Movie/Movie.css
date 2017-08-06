@@ -17,6 +17,26 @@
     box-shadow: none;
 }
 
+
+.remove {
+    width: 200px;
+    border: 1px solid red;
+    cursor: pointer;
+    padding: 7px 30px;
+    font-weight: bold;
+    background: red;
+    color: #ffffff;
+    float: left;
+    clear: left;
+}
+
+.remove + a{
+    float: left;
+    clear: none;
+    margin-left: 20px;
+}
+
+
 .root h1 {
     width: 70%;
     font-size: 20px;

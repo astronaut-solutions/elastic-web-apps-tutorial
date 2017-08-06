@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { observer } from 'mobx-react';
 
 import Movie from '../CatalogPage/Movie';
 import Icon from '../Ui/Icon';
@@ -7,11 +8,13 @@ import Button from '../Ui/Button';
 
 import styles from './DetailsPage.css';
 
+
+@observer
 class DetailsPage extends Component {
 
 
     render() {
-        const { id, movies, saveToFavourites } = this.props;
+        const { id, movies, saveToFavourites, isInFavourites } = this.props;
 
         if (movies[id] === undefined) {
             return null;
@@ -26,7 +29,7 @@ class DetailsPage extends Component {
 
                 <Button
                     onClick={saveToFavourites}
-                    customClass={`${styles.saveTo} ${styles.saveToSaved}`}>
+                    customClass={`${styles.saveTo} ${isInFavourites ? styles.saved : ''}`}>
                     Save to favourites <Icon iconClass="fa-heart" />
                 </Button>
             </Block>

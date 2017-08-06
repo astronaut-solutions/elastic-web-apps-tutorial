@@ -12,5 +12,19 @@
         "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
         "trailer": "https://www.youtube.com/embed/6hB3S9bIaco",
         "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY1000_CR0,0,672,1000_AL_.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Alien 2",
+        "description": "After a space merchant vessel perceives an unknown transmission as a distress call, its landing on the source moon finds one of the crew attacked by a mysterious life-form, and they soon realize that its life cycle has merely begun.",
+        "trailer": "https://www.youtube.com/embed/LjLamj-b0I8",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDNhN2IxZWItNGEwYS00ZDNhLThiM2UtODU3NWJlZjBkYjQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,681,1000_AL_.jpg"
+    },
+    {
+        "id": 4,
+        "title": "The Shawshank Redemption 3",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "trailer": "https://www.youtube.com/embed/6hB3S9bIaco",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY1000_CR0,0,672,1000_AL_.jpg"
     }
 ]

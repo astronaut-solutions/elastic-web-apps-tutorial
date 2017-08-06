@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
+import { observer, inject } from 'mobx-react';
 
 import styles from './Header.css';
 
 import Icon from '../../Ui/Icon';
 
+@inject('store')
+@observer
 class Header extends Component {
     render() {
         const { history } = this.props;
@@ -12,7 +15,7 @@ class Header extends Component {
         return (
             <div className={styles.root}>
                 <a
-                    onClick={() => { history.goBack(); console.log(history) }}
+                    onClick={() => { history.goBack(); }}
                     className={`${styles.back} ${history.location.pathname === '/' ? styles.hide : ''}`}>
                     &lsaquo;
                 </a>
@@ -23,10 +26,22 @@ class Header extends Component {
 
                 <Link to="/favourites" className={styles.favourites}>
                     favourites <Icon iconClass="fa-heart" />
-                    <span>20</span>
+                    {this.getCounter()}
                 </Link>
             </div>
         );
+    }
+
+    getCounter() {
+        const { store } = this.props;
+
+        let length = Object.keys(store.favourites).length;
+
+        if(length === 0){
+            return null;
+        }
+
+        return (<span>{length}</span>);
     }
 }
 

@@ -5,12 +5,12 @@ import Movie from './Movie';
 
 export default class CatalogPage extends Component {
     render() {
-        const { movies } = this.props;
+        const { movies, favourites } = this.props;
 
         if (movies.length === 0) {
             return (
                 <Block>
-                    Loading...
+                    {favourites === null ? 'Loading...' : 'Empty favourites list'}
                 </Block>
             );
         }
@@ -23,9 +23,11 @@ export default class CatalogPage extends Component {
     }
 
     renderMovies(movies) {
+        const { favourites } = this.props;
+
         return movies.reduce(function (output, element) {
             output.push(
-                <Movie key={output.length} data={element} />
+                <Movie key={output.length} data={element} favourites={favourites} />
             );
             return output;
         }, []);
