@@ -75,6 +75,7 @@
     .remove + a,
     .root > a{
         width: 290px;
+        max-width: 100%;
         margin: 5px auto;
         padding: 10px;
         float: none;
