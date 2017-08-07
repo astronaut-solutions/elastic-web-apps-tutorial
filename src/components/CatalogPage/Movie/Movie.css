@@ -3,7 +3,7 @@
     float: none;
     background: #fff;
     min-height: 200px;
-    padding: 20px 80px 20px 20px;
+    padding: 30px 20px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     overflow: hidden;
@@ -59,8 +59,25 @@
 
 @media screen and (max-width: 768px) {
     .root img {
-        margin: 0 auto;
+        margin: 10px auto 40px auto;
         display: block;
         float: none;
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+
+    .root p {
+        width: 100%;
+    }
+
+    .remove,
+    .remove + a,
+    .root > a{
+        width: 290px;
+        margin: 5px auto;
+        padding: 10px;
+        float: none;
+        clear: both;
     }
 }

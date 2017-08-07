@@ -3,7 +3,7 @@
     float: none;
     background: #fff;
     min-height: 200px;
-    padding: 20px 80px 20px 20px;
+    padding: 20px 10px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     overflow: hidden;
@@ -25,4 +25,15 @@
 .saved {
     background: red;
     color: #ffffff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .root p {
+        width: 100%;
+    }
+
+    .saveTo {
+        margin: 0 auto;
+    }
 }
