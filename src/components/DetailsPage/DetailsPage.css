@@ -13,13 +13,15 @@
 }
 
 .saveTo {
-    width: 160px;
+    max-width: 240px;
     background: #fff;
     border: 1px solid red;
     cursor: pointer;
-    padding: 10px 30px;
+    padding: 10px 30px 10px 30px;
     color: red;
     font-weight: bold;
+    margin: 0 auto;
+    display: block;
 }
 
 .saved {

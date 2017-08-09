@@ -1,0 +1,17 @@
+.root {
+    clear: both;
+    float: none;
+    width: 100%;
+    margin: 10px auto;
+    max-width: 720px;
+    height: 480px;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .root {
+        height: 250px;
+    }
+}

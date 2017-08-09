@@ -5,6 +5,7 @@ import Movie from '../CatalogPage/Movie';
 import Icon from '../Ui/Icon';
 import Block from '../Ui/Block';
 import Button from '../Ui/Button';
+import YouTube from '../Ui/YouTube';
 
 import styles from './DetailsPage.css';
 
@@ -32,6 +33,10 @@ class DetailsPage extends Component {
                     customClass={`${styles.saveTo} ${isInFavourites ? styles.saved : ''}`}>
                     Save to favourites <Icon iconClass="fa-heart" />
                 </Button>
+
+                <YouTube url={movies[id].trailer} />
+
+
             </Block>
         );
     }

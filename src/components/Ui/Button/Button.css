@@ -1,7 +1,9 @@
 .root {
     background: #8BC34A;
-    width: 150px;
-    height: 20px;
+    max-width: 200px;
+    min-width: 150px;
+    height: 40px;
+    line-height: 20px;
     border: 0;
     box-shadow: 0px 0px 3px rgba(0,0,0, 0.5);
     cursor: pointer;
@@ -10,6 +12,7 @@
     padding: 8px 10px;
     display: block;
     text-align: center;
+    white-space: nowrap;
     clear: both;
     float: none;
 }
