@@ -15,16 +15,51 @@
     },
     {
         "id": 3,
-        "title": "Alien 2",
+        "title": "The Notebook",
         "description": "After a space merchant vessel perceives an unknown transmission as a distress call, its landing on the source moon finds one of the crew attacked by a mysterious life-form, and they soon realize that its life cycle has merely begun.",
-        "trailer": "https://www.youtube.com/embed/LjLamj-b0I8",
-        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDNhN2IxZWItNGEwYS00ZDNhLThiM2UtODU3NWJlZjBkYjQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,681,1000_AL_.jpg"
+        "trailer": "https://www.youtube.com/embed/FC6biTjEyZw",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg"
     },
     {
         "id": 4,
-        "title": "The Shawshank Redemption 3",
-        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        "trailer": "https://www.youtube.com/embed/6hB3S9bIaco",
-        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY1000_CR0,0,672,1000_AL_.jpg"
+        "title": "The Fault in Our Stars",
+        "description": "Two teenage cancer patients begin a life-affirming journey to visit a reclusive author in Amsterdam.",
+        "trailer": "https://www.youtube.com/embed/9ItBvH5J6ss",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4NzkxNzc5Ml5BMl5BanBnXkFtZTgwNzQ3OTMxMTE@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+    },
+    {
+        "id": 5,
+        "title": "The Perks of Being a Wallflower",
+        "description": "An introvert freshman is taken under the wings of two seniors who welcome him to the real world.",
+        "trailer": "https://www.youtube.com/embed/x0nTfbg24Qs",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzIxOTQyODU1OV5BMl5BanBnXkFtZTcwMDQ4Mjg4Nw@@._V1_SY1000_CR0,0,676,1000_AL_.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Silver Linings Playbook",
+        "description": "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
+        "trailer": "https://www.youtube.com/embed/EI_3ywJLQio",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Black Swan",
+        "description": "A committed dancer wins the lead role in a production of Tchaikovsky's \"Swan Lake\" only to find herself struggling to maintain her sanity.",
+        "trailer": "https://www.youtube.com/embed/5jaI1XOB-bs",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Life of Pi",
+        "description": "A young man who survives a disaster at sea is hurtled into an epic journey of adventure and discovery. While cast away, he forms an unexpected connection with another survivor: a fearsome Bengal tiger.",
+        "trailer": "https://www.youtube.com/embed/j9Hjrs6WQ8M",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTg2OTY2ODg5OF5BMl5BanBnXkFtZTcwODM5MTYxOA@@._V1_.jpg"
+    },
+    {
+        "id": 9,
+        "title": "The Avengers",
+        "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
+        "trailer": "https://www.youtube.com/embed/eOrNdBpGMv8",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
     }
 ]
