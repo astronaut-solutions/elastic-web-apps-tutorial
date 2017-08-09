@@ -61,5 +61,117 @@
         "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
         "trailer": "https://www.youtube.com/embed/eOrNdBpGMv8",
         "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+    },
+    {
+        "id": 10,
+        "title": "The Social Network",
+        "description": "Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.",
+        "trailer": "https://www.youtube.com/embed/2RB3edZyeYw",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1_SY1000_CR0,0,634,1000_AL_.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Slumdog Millionaire",
+        "description": "A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of \"Who Wants to be a Millionaire?\"",
+        "trailer": "https://www.youtube.com/embed/AIzbwV7on6Q",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NTA5NzI0N15BMl5BanBnXkFtZTcwMjUxMjYxMg@@._V1_.jpg"
+    },
+    {
+        "id": 12,
+        "title": "The Martian",
+        "description": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+        "trailer": "https://www.youtube.com/embed/ej3ioOneTy8",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+    },
+    {
+        "id": 13,
+        "title": "The Revenant",
+        "description": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+        "trailer": "https://www.youtube.com/embed/LoebZZ8K5N0",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2FmODc2N2QtYmY3MS00YTMwLWI2NGYtZWRmYWVkNjFjZmI0XkEyXkFqcGdeQXVyNTMxMjgxMzA@._V1_.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Avatar",
+        "description": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "trailer": "https://www.youtube.com/embed/5PSNL1qE6VY",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_.jpg"
+    },
+    {
+        "id": 15,
+        "title": "I Am Legend",
+        "description": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+        "trailer": "https://www.youtube.com/embed/dtKMEAXyPkg",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYTE1ZTBlYzgtNmMyNS00ZTQ2LWE4NjEtZjUxNDJkNTg2MzlhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Django Unchained",
+        "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+        "trailer": "https://www.youtube.com/embed/eUdM9vrCbow",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Mad Max: Fury Road",
+        "description": "A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max.",
+        "trailer": "https://www.youtube.com/embed/hEJnMQG9ev8",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyMTE0ODcxNF5BMl5BanBnXkFtZTgwODE4NDQzNTE@._V1_SY1000_CR0,0,687,1000_AL_.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Star Wars: Episode VII - The Force Awakens",
+        "description": "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and spare parts scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker.",
+        "trailer": "https://www.youtube.com/embed/gAUxw4umkdY",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SY1000_CR0,0,677,1000_AL_.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Edge of Tomorrow",
+        "description": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies.",
+        "trailer": "https://www.youtube.com/embed/vw61gCe2oqI",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Forrest Gump",
+        "description": "While not intelligent, Forrest Gump has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
+        "trailer": "https://www.youtube.com/embed/bLvqoHBptjg",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,757,1000_AL_.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Gladiator",
+        "description": "When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
+        "trailer": "https://www.youtube.com/embed/owK1qxDselE",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Inglourious Basterds",
+        "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+        "trailer": "https://www.youtube.com/embed/KnrRy6kSFF0",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Titanic",
+        "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+        "trailer": "https://www.youtube.com/embed/2e-eXJ6HgkQ",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY1000_CR0,0,671,1000_AL_.jpg"
+    },
+    {
+        "id": 24,
+        "title": "Elysium",
+        "description": "In the year 2154, the very wealthy live on a man-made space station while the rest of the population resides on a ruined Earth. A man takes on a mission that could bring equality to the polarized worlds.",
+        "trailer": "https://www.youtube.com/embed/oIBtePb-dGY",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc2NjU0MTcwNV5BMl5BanBnXkFtZTcwMjg4MDg2OQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Ratatouille",
+        "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+        "trailer": "https://www.youtube.com/embed/niD-jahFURU",
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
     }
 ]
